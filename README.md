@@ -1,1 +1,1 @@
-# VanillaJSFin
+# VanillaJS.github.io
