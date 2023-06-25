@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>jolupjakpoom</title>
+  </head>
+  <body>
+    <!-- greeting 시작 -->
+    <div class="row_wrap">
+      <div class="row">
+        <form class="hidden" id="login-form">
+          <input
+            required
+            maxlength="12"
+            type="text"
+            placeholder="이름을 입력해주세요"
+            id="name-input"
+          />
+          <input type="submit" value="Log in" id="name-button" />
+        </form>
+      </div>
+    </div>
+    <h1 class="hidden" id="greeting"></h1>
+    <!-- greeting 끝 -->
+    <!-- quote 시작 -->
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <!-- quote 끝 -->
+    <!-- clock 시작 -->
+    <h2 id="now-time">현재 시각</h2>
+    <h2 id="clock">00:00:00</h2>
+    <!-- clock 끝 -->
+    <!-- todo 시작 -->
+    <h2 id="today-todo">오늘 할일</h2>
+    <form id="todo-form">
+      <input
+        type="text"
+        placeholder="할일을 입력해주세요"
+        maxlength="10"
+        required
+        id="today"
+      />
+    </form>
+    <ul id="todo-list"></ul>
+    <!-- todo 끝 -->
+    <!-- weather 시작 -->
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <!-- weather 끝 -->
+    <div id="background"></div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

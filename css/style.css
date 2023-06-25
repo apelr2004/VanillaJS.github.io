@@ -1,0 +1,88 @@
+#greeting {
+    font-size: 30px;
+    color: rgb(179, 255, 0);
+    text-align: center;
+  }
+  
+  #log {
+    text-align: center;
+  }
+  
+  #clock {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: 200%;
+  }
+  
+  #now-time {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    height: 200%;
+  }
+  
+  #name-input {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  #name-button {
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  #today {
+    width: 190px;
+    height: 35px;
+    font-size: 20px;
+  }
+  
+  #quote {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #weather {
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    bottom: -1px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  input::placeholder {
+    size: 10px;
+  }
+  
+  .row_wrap {
+    width: 350px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    padding: 3px 0;
+  }
+  
+  .bgImage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    animation: fadeIn 1.5s linear;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
